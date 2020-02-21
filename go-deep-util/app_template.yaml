@@ -1,0 +1,5 @@
+name: "go-deep-util"
+bg-file-path: "bg.txt"
+templates:
+  - "src/main.go"
+  - "go.mod"

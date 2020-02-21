@@ -1,0 +1,9 @@
+development:
+  dialect: mysql
+  datasource: root:@tcp(localhost:3306)/mapfriend?parseTime=true&collation=utf8mb4_general_ci&interpolateParams=true
+  dir: migrations
+
+test:
+  dialect: mysql
+  datasource: root:password@tcp(localhost:3306)/test-mapfriend?parseTime=true&collation=utf8mb4_general_ci&interpolateParams=true
+  dir: migrations
