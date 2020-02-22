@@ -10,4 +10,3 @@ templates:
   - "README.md"
   - "chat.go"
   - "control/control.go"
-  - "app_template.yaml"

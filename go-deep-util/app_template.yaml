@@ -1,5 +1,8 @@
 name: "ryomak/go-deep-util"
 bg-file-path: "bg.txt"
 templates:
-  - "src/main.go"
+  - "main.go"
   - "go.mod"
+  - "dataset/tida/example.png"
+  - "dataset/yuna/example.png"
+  - "dataset/lulu/example.png"
