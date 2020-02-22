@@ -35,9 +35,9 @@ ex)/radar/roomA/ryoma
 ```$ cd server && make run ```
 
 5. running vue-server
-```$ npm run serve ``` 
+```$ npm run serve ```
 
-display member point of same room 
+display member point of same room
 
 ## TODO
 - [ ] to set docker mysql

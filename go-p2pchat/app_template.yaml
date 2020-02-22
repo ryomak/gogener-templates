@@ -1,0 +1,13 @@
+name: "ryomak/go-p2pchat"
+bg-file-path: "bg.txt"
+templates:
+  - "go.mod"
+  - "util/userInput.go"
+  - "util/util.go"
+  - "Makefile"
+  - "peer/util.go"
+  - "peer/peer.go"
+  - "README.md"
+  - "chat.go"
+  - "control/control.go"
+  - "app_template.yaml"

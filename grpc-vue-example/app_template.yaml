@@ -1,4 +1,4 @@
-name: "grpc-vue-example"
+name: "ryomak/grpc-vue-example"
 bg-file-path: "bg.txt"
 templates:
   - "src/main.go"
