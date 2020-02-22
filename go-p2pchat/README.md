@@ -18,4 +18,6 @@ connecting other node automatically
 - [ ] public mode
 - [ ] node list => all
 - [ ] control
-upnp
+
+## PULL REQUEST
+https://github.com/ryomak/go-p2pchat
