@@ -7,7 +7,7 @@ import (
 	"[[.ModName]]/infrastructure/firebase/auth"
 	"[[.ModName]]/pkg/context"
 	"[[.ModName]]/pkg/log"
-	"[[.ModName]]/presentation/v1/resource/factory"
+	"[[.ModName]]/presentation/api/v1/resource/factory"
 )
 
 type AuthMiddleware struct {

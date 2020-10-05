@@ -12,7 +12,7 @@ import (
 	"[[.ModName]]/infrastructure/firebase/auth"
 	"[[.ModName]]/infrastructure/repository"
 	"[[.ModName]]/presentation/middleware"
-	"[[.ModName]]/presentation/v1/handler"
+	"[[.ModName]]/presentation/api/v1/handler"
 )
 
 // Injectors from wire.go:

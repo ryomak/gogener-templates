@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"[[.ModName]]/domain/service"
-	"[[.ModName]]/presentation/v1/resource/factory"
+	"[[.ModName]]/presentation/api/v1/resource/factory"
 )
 
 type MaintenanceMiddleware struct {

@@ -9,7 +9,7 @@ import (
 	"[[.ModName]]/infrastructure/firebase/auth"
 	"[[.ModName]]/infrastructure/repository"
 	middle "[[.ModName]]/presentation/middleware"
-	"[[.ModName]]/presentation/v1/handler"
+	"[[.ModName]]/presentation/api/v1/handler"
 
 	"github.com/google/wire"
 )

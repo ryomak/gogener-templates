@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"[[.ModName]]/pkg/merr"
-	"[[.ModName]]/presentation/v1/resource"
+	"[[.ModName]]/presentation/api/v1/resource"
 )
 
 func NoContent(w http.ResponseWriter) {

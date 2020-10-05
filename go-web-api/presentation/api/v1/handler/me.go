@@ -6,7 +6,7 @@ import (
 	"[[.ModName]]/application/usecase"
 	"[[.ModName]]/application/usecase/request"
 	"[[.ModName]]/pkg/log"
-	"[[.ModName]]/presentation/v1/resource/factory"
+	"[[.ModName]]/presentation/api/v1/resource/factory"
 )
 
 type Me interface {
