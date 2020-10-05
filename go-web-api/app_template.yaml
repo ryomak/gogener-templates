@@ -18,7 +18,6 @@ templates:
   - "script/db/create_user.sh"
   - "README.md"
   - "envrc.example"
-  - "bg.txt"
   - "application/usecase/me.go"
   - "application/usecase/response/me.go"
   - "application/usecase/response/user.go"
