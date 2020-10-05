@@ -57,7 +57,6 @@ templates:
   - "presentation/router/router.go"
   - "main.go"
   - ".gcloudignore"
-  - "app_template.yaml"
   - "pkg/context/auth.go"
   - "pkg/log/log.go"
   - "pkg/log/spancontext/spancontext.go"
