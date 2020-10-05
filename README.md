@@ -1,10 +1,4 @@
-# templates-for-gogener
-
-- go-deep-util
- deep-learning example with go
-- grpc-vue-example
- vue and go application using grpc 
-- go-p2pchat
- p2p chat for private network
-- go-web-api
- go web api
+# gogener-templates
+## template追加方法
+1. templateを作って、フォルダの中にapp_templates.yamlを作成
+2. map.yamlに名前とapp_templates.yamlのurlを追記
