@@ -1,0 +1,20 @@
+runtime: go112
+
+service: default
+
+instance_class: F1
+automatic_scaling:
+  min_idle_instances: automatic
+  max_idle_instances: 1
+  min_pending_latency: 3000ms
+  max_pending_latency: automatic
+  max_concurrent_requests: 20
+
+handlers:
+  - url: /.*
+    secure: always
+    script: auto
+
+env_variables:
+  APP_ENV: "production"
+  GOOGLE_CLOUD_SQL_SOURCE: "root:xxxxx@unix(/cloudsql/[[.AppName]]:asia-northeast1:[[.AppName]])/[[.AppName]]?charset=utf8mb4&parseTime=True"

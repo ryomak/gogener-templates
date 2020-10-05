@@ -1,0 +1,9 @@
+pkgname="entity"
+output="domain/entity"
+[mysql]
+  dbname = "[[.AppName]]"
+  host   = "localhost"
+  port   = 3306
+  user   = "[[.AppName]]"
+  pass   = "[[.AppName]]"
+  sslmode = "false"

@@ -1,0 +1,1 @@
+mysql -uroot < ./script/db/create_user.sql
